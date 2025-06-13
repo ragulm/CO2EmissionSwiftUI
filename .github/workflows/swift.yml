@@ -16,10 +16,35 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - uses: swift-actions/setup-swift@65540b95f51493d65f5e59e97dcef9629ddf11bf
-      with:
-        swift-version: "5.3.3"
-    - name: Build
-      run: swift build -v
-    - name: Run tests
-      run: swift test -v
+    - name: Select Xcode version (Optional, but good practice if you need a specific version)
+      run: |
+        sudo xcode-select -switch /Applications/Xcode_15.3.app/Contents/Developer # Example for Xcode 15.3
+        # Find available Xcode versions by running 'ls /Applications | grep Xcode' locally or in a previous workflow run
+        # For a specific version, check GitHub Actions documentation for available images
+        xcodebuild -version # Verify selected version
+        
+    - name: Build Xcode Project
+      run: |
+        # Replace 'YOUR_PROJECT_NAME.xcodeproj' or 'YOUR_WORKSPACE_NAME.xcworkspace'
+        # Replace 'YOUR_SCHEME_NAME' with your main app's scheme (e.g., "CO2EmissionSwiftUI")
+        # Replace 'YOUR_APP_TARGET_NAME' with the name of your app target (often the same as the scheme)
+        xcodebuild build \
+          -scheme "GenAIKathaApp" \
+          -project "GenAIKathaApp.xcodeproj" \ # Use -workspace if you have an .xcworkspace
+          -destination "platform=iOS Simulator,name=iPhone 15" \ # Adjust simulator as needed
+          -configuration Release \
+          clean build
+      # Ensure this command is run from the directory containing your .xcodeproj or .xcworkspace
+      working-directory: ./GenAIKathaApp/ # Or replace with your project's subdirectory, e.g., ./CO2EmissionSwiftUIApp/
+
+    - name: Run Xcode Tests
+      run: |
+        # Replace 'YOUR_SCHEME_NAME' with your test scheme (often the same as your app scheme)
+        # Replace 'YOUR_PROJECT_NAME.xcodeproj' or 'YOUR_WORKSPACE_NAME.xcworkspace'
+        xcodebuild test \
+          -scheme "GenAIKathaApp" \
+          -project "GenAIKathaApp.xcodeproj" \ # Use -workspace if you have an .xcworkspace
+          -destination "platform=iOS Simulator,name=iPhone 15" \ # Must match the build destination
+      # Ensure this command is run from the directory containing your .xcodeproj or .xcworkspace
+      working-directory: ./GenAIKathaApp/ # Or replace with your project's subdirectory, e.g., ./CO2EmissionSwiftUIApp/
+
