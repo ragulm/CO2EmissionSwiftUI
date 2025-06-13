@@ -25,26 +25,22 @@ jobs:
         
     - name: Build Xcode Project
       run: |
-        # Replace 'YOUR_PROJECT_NAME.xcodeproj' or 'YOUR_WORKSPACE_NAME.xcworkspace'
-        # Replace 'YOUR_SCHEME_NAME' with your main app's scheme (e.g., "CO2EmissionSwiftUI")
-        # Replace 'YOUR_APP_TARGET_NAME' with the name of your app target (often the same as the scheme)
-        xcodebuild build \
+        xcodebuild clean build \
           -scheme "GenAIKathaApp" \
-          -project "GenAIKathaApp.xcodeproj" \ # Use -workspace if you have an .xcworkspace
-          -destination "platform=iOS Simulator,name=iPhone 15" \ # Adjust simulator as needed
+          -project "GenAIKathaApp.xcodeproj" \
+          -destination "platform=iOS Simulator,name=iPhone 15,OS=latest" \
           -configuration Release \
-          clean build
-      # Ensure this command is run from the directory containing your .xcodeproj or .xcworkspace
-      working-directory: ./GenAIKathaApp/ # Or replace with your project's subdirectory, e.g., ./CO2EmissionSwiftUIApp/
-
+          CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
+          -derivedDataPath ./build-output # Using a distinct path for derived data
+      working-directory: ./GenAIKathaApp/
+      
     - name: Run Xcode Tests
       run: |
-        # Replace 'YOUR_SCHEME_NAME' with your test scheme (often the same as your app scheme)
-        # Replace 'YOUR_PROJECT_NAME.xcodeproj' or 'YOUR_WORKSPACE_NAME.xcworkspace'
         xcodebuild test \
           -scheme "GenAIKathaApp" \
-          -project "GenAIKathaApp.xcodeproj" \ # Use -workspace if you have an .xcworkspace
-          -destination "platform=iOS Simulator,name=iPhone 15" \ # Must match the build destination
-      # Ensure this command is run from the directory containing your .xcodeproj or .xcworkspace
-      working-directory: ./GenAIKathaApp/ # Or replace with your project's subdirectory, e.g., ./CO2EmissionSwiftUIApp/
+          -project "GenAIKathaApp.xcodeproj" \
+          -destination "platform=iOS Simulator,name=iPhone 15,OS=latest" \
+          CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
+          -derivedDataPath ./build-output # Using the same derived data path as build
+      working-directory: ./GenAIKathaApp/
 
