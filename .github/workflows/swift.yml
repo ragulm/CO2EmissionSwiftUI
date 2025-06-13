@@ -32,7 +32,6 @@ jobs:
           -configuration Release \
           CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
           -derivedDataPath ./build-output # Using a distinct path for derived data
-      working-directory: ./GenAIKathaApp/
       
     - name: Run Xcode Tests
       run: |
@@ -42,5 +41,4 @@ jobs:
           -destination "platform=iOS Simulator,name=iPhone 15,OS=latest" \
           CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
           -derivedDataPath ./build-output # Using the same derived data path as build
-      working-directory: ./GenAIKathaApp/
 
