@@ -18,7 +18,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: Select Xcode version (Optional, but good practice if you need a specific version)
       run: |
-        sudo xcode-select -switch /Applications/Xcode_16.0.app/Contents/Developer # Example for Xcode 15.3
+        sudo xcode-select -switch /Applications/Xcode_15.4.app/Contents/Developer # Example for Xcode 15.4
         # Find available Xcode versions by running 'ls /Applications | grep Xcode' locally or in a previous workflow run
         # For a specific version, check GitHub Actions documentation for available images
         xcodebuild -version # Verify selected version
