@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,21 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AB84496D2DFAAC710091147C /* GenAIKathaApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GenAIKathaApp;
-			sourceTree = "<group>";
-		};
-		AB84497D2DFAAC730091147C /* GenAIKathaAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GenAIKathaAppTests;
-			sourceTree = "<group>";
-		};
-		AB8449872DFAAC730091147C /* GenAIKathaAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GenAIKathaAppUITests;
-			sourceTree = "<group>";
-		};
+		AB84496D2DFAAC710091147C /* GenAIKathaApp */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GenAIKathaApp; sourceTree = "<group>"; };
+		AB84497D2DFAAC730091147C /* GenAIKathaAppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GenAIKathaAppTests; sourceTree = "<group>"; };
+		AB8449872DFAAC730091147C /* GenAIKathaAppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GenAIKathaAppUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +175,7 @@
 				};
 			};
 			buildConfigurationList = AB8449662DFAAC710091147C /* Build configuration list for PBXProject "GenAIKathaApp" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +184,6 @@
 			);
 			mainGroup = AB8449622DFAAC710091147C;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = AB84496C2DFAAC710091147C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
