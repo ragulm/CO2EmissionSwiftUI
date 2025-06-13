@@ -30,24 +30,6 @@ struct ContentView: View {
 
     var body: some View {
         
-//        WindowGroup {
-//            TabView {
-//                RouteSuggestionView()
-//                    .tabItem {
-//                        Label("Routes", systemImage: "map")
-//                    }
-//                
-//                UserProfileView()
-//                    .tabItem {
-//                        Label("Profile", systemImage: "person")
-//                    }
-//                
-//                SustainabilityTrackerView()
-//                    .tabItem {
-//                        Label("Impact", systemImage: "leaf")
-//                    }
-//            }
-        
         MainTabView()
             .environmentObject(viewModel)
             .onAppear {
