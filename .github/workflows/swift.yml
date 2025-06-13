@@ -32,6 +32,7 @@ jobs:
           -configuration Release \
           CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
           -derivedDataPath ./build-output # Using a distinct path for derived data
+          GCC_PREPROCESSOR_DEFINITIONS='$GCC_PREPROCESSOR_DEFINITIONS IDE_ENABLE_DESIGNSYNCHRONIZATION=YES'
       
     - name: Run Xcode Tests
       run: |
@@ -41,4 +42,5 @@ jobs:
           -destination "platform=iOS Simulator,name=iPhone 15,OS=latest" \
           CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
           -derivedDataPath ./build-output # Using the same derived data path as build
+          GCC_PREPROCESSOR_DEFINITIONS='$GCC_PREPROCESSOR_DEFINITIONS IDE_ENABLE_DESIGNSYNCHRONIZATION=YES'
 
