@@ -62,9 +62,6 @@ struct ContentView: View {
                     prefetchRoutesIfNeeded(for: user)
                 }
             }
-//    }
-//    .modelContainer(sharedModelContainer)
-//        }
         .modelContainer(sharedModelContainer)
     }
 
