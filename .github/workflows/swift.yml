@@ -65,4 +65,5 @@ jobs:
           # Added flag to disable project synchronization, which might resolve the assertion
           DISABLE_PROJECT_SYNCHRONIZATION=YES
           # If you need other preprocessor definitions, specify them here
+          ENABLE_TESTABILITY=YES
 
