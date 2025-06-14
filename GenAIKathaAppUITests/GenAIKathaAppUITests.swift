@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import GenAIKathaApp
 
 final class GenAIKathaAppUITests: XCTestCase {
 
