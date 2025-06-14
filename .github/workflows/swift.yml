@@ -11,18 +11,27 @@ on:
 
 jobs:
   build:
-
     runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v4
+
     - name: Select Xcode version (Optional, but good practice if you need a specific version)
       run: |
         sudo xcode-select -switch /Applications/Xcode_15.3.app/Contents/Developer # Example for Xcode 15.3
         # Find available Xcode versions by running 'ls /Applications | grep Xcode' locally or in a previous workflow run
         # For a specific version, check GitHub Actions documentation for available images
         xcodebuild -version # Verify selected version
-        
+
+    - name: Clean Xcode Caches
+      run: |
+        # Remove derived data from default location (just in case, even with -derivedDataPath)
+        rm -rf ~/Library/Developer/Xcode/DerivedData
+        # Remove Xcode's module caches and other caches
+        rm -rf ~/Library/Caches/com.apple.dt.Xcode
+        # Aggressively clean the Git repository to remove untracked files and directories
+        git clean -fdx
+
     - name: Build Xcode Project
       run: |
         xcodebuild clean build \
@@ -31,14 +40,21 @@ jobs:
           -destination "platform=iOS Simulator,name=iPhone 16,OS=17.4" \
           -configuration Release \
           CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
-          -derivedDataPath ./build-output # Using a distinct path for derived data
-      
+          -derivedDataPath ./build-output \
+          # Added flag to disable project synchronization, which might resolve the assertion
+          DISABLE_PROJECT_SYNCHRONIZATION=YES
+          # If you need other preprocessor definitions, specify them here
+
     - name: Run Xcode Tests
       run: |
         xcodebuild test \
           -scheme "GenAIKathaApp" \
           -project "GenAIKathaApp.xcodeproj" \
           -destination "platform=iOS Simulator,name=iPhone 16,OS=17.4" \
+          -configuration Release \
           CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
-          -derivedDataPath ./build-output # Using the same derived data path as build
+          -derivedDataPath ./build-output \
+          # Added flag to disable project synchronization, which might resolve the assertion
+          DISABLE_PROJECT_SYNCHRONIZATION=YES
+          # If you need other preprocessor definitions, specify them here
 
