@@ -40,7 +40,7 @@ jobs:
         xcodebuild clean build \
           -scheme "GenAIKathaApp" \
           -project "GenAIKathaApp.xcodeproj" \
-          -destination "platform=iOS Simulator,name=iPhone 16,OS=17.4" \
+          -destination "platform=iOS Simulator,name=iPhone 16 Pro,OS=18.1" \
           -configuration Release \
           CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
           -derivedDataPath ./build-output \
@@ -53,7 +53,7 @@ jobs:
         xcodebuild test \
           -scheme "GenAIKathaApp" \
           -project "GenAIKathaApp.xcodeproj" \
-          -destination "platform=iOS Simulator,name=iPhone 16,OS=17.4" \
+          -destination "platform=iOS Simulator,name=iPhone 16 Pro,OS=18.1" \
           -configuration Release \
           CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
           -derivedDataPath ./build-output \
