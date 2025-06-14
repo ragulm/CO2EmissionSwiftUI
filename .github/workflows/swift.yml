@@ -28,7 +28,7 @@ jobs:
         xcodebuild clean build \
           -scheme "GenAIKathaApp" \
           -project "GenAIKathaApp.xcodeproj" \
-          -destination "platform=iOS Simulator,name=iPhone 16,OS=18" \
+          -destination "platform=iOS Simulator,name=iPhone 16,OS=17.4" \
           -configuration Release \
           CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
           -derivedDataPath ./build-output # Using a distinct path for derived data
@@ -39,7 +39,7 @@ jobs:
         xcodebuild test \
           -scheme "GenAIKathaApp" \
           -project "GenAIKathaApp.xcodeproj" \
-          -destination "platform=iOS Simulator,name=iPhone 16,OS=18" \
+          -destination "platform=iOS Simulator,name=iPhone 16,OS=17.4" \
           CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" \
           -derivedDataPath ./build-output # Using the same derived data path as build
           GCC_PREPROCESSOR_DEFINITIONS='$GCC_PREPROCESSOR_DEFINITIONS IDE_ENABLE_DESIGNSYNCHRONIZATION=YES'
