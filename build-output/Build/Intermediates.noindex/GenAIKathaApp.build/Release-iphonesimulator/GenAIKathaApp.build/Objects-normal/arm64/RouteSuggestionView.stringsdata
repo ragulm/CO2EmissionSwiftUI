@@ -1,0 +1,120 @@
+{
+  "source": "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/RouteSuggestionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Route Suggestions",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "It's your preferred commute time! Check for eco-friendly routes.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Route Details",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Suggested Routes",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Location",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Location",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Find Routes",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Error",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 84
+        }
+      },
+      {
+        "comment": "",
+        "key": "Route Details",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 146
+        }
+      },
+      {
+        "comment": "",
+        "key": "Route Information",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 122
+        }
+      },
+      {
+        "comment": "",
+        "key": "Conditions",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "Complete Route",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "Saves %lldg CO₂",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 191
+        }
+      }
+    ]
+  },
+  "version": 1
+}

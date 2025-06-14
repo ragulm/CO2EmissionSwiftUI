@@ -1,0 +1,48 @@
+{
+  "source": "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/CompletedRoutesView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Completed Routes",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Completed Routes",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "No routes completed yet",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Complete a route to see it here!",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Completed Routes",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 26
+        }
+      }
+    ]
+  },
+  "version": 1
+}

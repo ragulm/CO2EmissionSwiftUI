@@ -1,0 +1,80 @@
+{
+  "" : {
+    "const-values" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GenAIKathaApp-master.swiftconstvalues",
+    "dependencies" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GenAIKathaApp-master.d",
+    "diagnostics" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GenAIKathaApp-master.dia",
+    "emit-module-dependencies" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GenAIKathaApp-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GenAIKathaApp-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GenAIKathaApp-master.swiftdeps"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/ContentView.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/GenAIKathaAppApp.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GenAIKathaAppApp.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GenAIKathaAppApp.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GenAIKathaAppApp.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Item.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/Item.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/Item.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/Item.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Models/Route.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/Route.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/Route.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/Route.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Models/User.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/User.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/User.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/User.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/NotificationManager.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/NotificationManager.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/NotificationManager.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/NotificationManager.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/ViewModels/CommuteViewModel.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/CommuteViewModel.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/CommuteViewModel.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/CommuteViewModel.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/CompletedRouteRowView.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/CompletedRouteRowView.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/CompletedRouteRowView.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/CompletedRouteRowView.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/CompletedRoutesView.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/CompletedRoutesView.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/CompletedRoutesView.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/CompletedRoutesView.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/MainTabView.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/MainTabView.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/MainTabView.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/MainTabView.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/RouteSuggestionView.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/RouteSuggestionView.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/RouteSuggestionView.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/RouteSuggestionView.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/SustainabilityTrackerView.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/SustainabilityTrackerView.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/SustainabilityTrackerView.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/SustainabilityTrackerView.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/UserProfileView.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/UserProfileView.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/UserProfileView.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/UserProfileView.o"
+  },
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

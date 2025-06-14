@@ -1,0 +1,112 @@
+{
+  "source": "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/SustainabilityTrackerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Sustainability Tracker",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Today's Impact",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "Preferred Time Window Stats",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Activity",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "Achievements",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%% of your commute was eco-friendly today!",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Eco-Friendly",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Other",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "You completed %lld commutes during your preferred window (%@ - %@) this week.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set your preferred commute time in your profile to see stats here.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "No completed routes yet",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "Complete your profile to start tracking your eco-friendly impact!",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set Up Profile",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 104
+        }
+      }
+    ]
+  },
+  "version": 1
+}

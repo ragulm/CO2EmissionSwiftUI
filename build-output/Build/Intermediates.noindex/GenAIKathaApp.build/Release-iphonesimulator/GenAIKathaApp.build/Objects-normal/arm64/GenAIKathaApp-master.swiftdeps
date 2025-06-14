@@ -1,0 +1,20 @@
+version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
+options: "db0f09f2a1b5f9a284723bc848e29c7d19b0ede8241c618dbb4a320d6a53e4cf"
+build_start_time: [1749881632, 102872000]
+build_end_time: [1749881648, 364197000]
+inputs:
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/ContentView.swift": [1749877754, 466190217]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/GenAIKathaAppApp.swift": [1749877754, 466276968]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Item.swift": [1749877754, 466368178]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Models/Route.swift": [1749877754, 466502346]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Models/User.swift": [1749877754, 466582180]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/NotificationManager.swift": [1749877754, 466670556]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/ViewModels/CommuteViewModel.swift": [1749877754, 466840808]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/CompletedRouteRowView.swift": [1749877754, 466970101]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/CompletedRoutesView.swift": [1749877754, 467047519]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/MainTabView.swift": [1749877754, 467126312]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/RouteSuggestionView.swift": [1749877754, 467272772]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/SustainabilityTrackerView.swift": [1749877754, 467409982]
+  "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/UserProfileView.swift": [1749877754, 467520191]
+  ? "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/build-output/Build/Intermediates.noindex/GenAIKathaApp.build/Release-iphonesimulator/GenAIKathaApp.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1749881631, 990628994]

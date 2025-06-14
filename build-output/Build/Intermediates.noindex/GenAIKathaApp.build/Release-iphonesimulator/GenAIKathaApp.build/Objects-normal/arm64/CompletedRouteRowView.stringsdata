@@ -1,0 +1,24 @@
+{
+  "source": "/Users/ragulml/Documents/Sample/Learn/CO2Emission/CO2EmissionSwiftUI/GenAIKathaApp/Views/CompletedRouteRowView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%@ → %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Saved %lldg CO₂",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 28
+        }
+      }
+    ]
+  },
+  "version": 1
+}
