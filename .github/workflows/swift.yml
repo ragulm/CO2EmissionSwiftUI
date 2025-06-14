@@ -26,6 +26,11 @@ jobs:
     #     # For a specific version, check GitHub Actions documentation for available images
     #     xcodebuild -version # Verify selected version
 
+    - name: Select Xcode version
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: '16.1'
+
     - name: Clean Xcode Caches
       run: |
         # Remove derived data from default location (just in case, even with -derivedDataPath)
