@@ -16,6 +16,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: List available simulators (debug)
+      run: xcrun simctl list devices
+
     - name: Select Xcode version (Optional, but good practice if you need a specific version)
       run: |
         sudo xcode-select -switch /Applications/Xcode_15.3.app/Contents/Developer # Example for Xcode 15.3
